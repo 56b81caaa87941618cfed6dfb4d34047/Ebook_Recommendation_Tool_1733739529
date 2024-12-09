@@ -498,5 +498,15 @@
         "source": "base_assistant",
         "content": "The background color of the hero section is already green. Do you have any other updates or changes in mind?",
         "metadata": {}
+    },
+    {
+        "id": "b4c3432f-80ae-423a-9d33-d3bf32182dbf",
+        "timestamp": "2024-12-09T14:54:06.096218Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to red",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
     }
 ]
