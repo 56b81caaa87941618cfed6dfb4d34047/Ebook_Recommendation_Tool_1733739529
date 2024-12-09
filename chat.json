@@ -6,56 +6,5 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
-    },
-    {
-        "id": "6a2c3734-4fde-423f-b36f-b4c5168e8abb",
-        "timestamp": "2024-12-09T13:17:00.049496Z",
-        "role": "user",
-        "source": "user",
-        "content": "Change the text to say \"Your next best favorite is here\"",
-        "metadata": {
-            "component_id": "Header1733739532"
-        }
-    },
-    {
-        "id": "9f7080fd-6174-4a7b-a342-60fbc9acb797",
-        "timestamp": "2024-12-09T13:17:02.343342Z",
-        "role": "tool_call",
-        "source": "base_assistant",
-        "content": null,
-        "metadata": {
-            "id": "call_oEY5umXLMOSnII48LHCQtf9E",
-            "function": {
-                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the text to say 'Your next best favorite is here'\",\"acknowledgement_message\":\"Okay, I'm changing the text in the header component.\"}",
-                "name": "EditFrontendComponent"
-            },
-            "type": "function"
-        }
-    },
-    {
-        "id": "938662c1-f38d-405b-b5cf-da042f7fa7ca",
-        "timestamp": "2024-12-09T13:17:02.457026Z",
-        "role": "assistant",
-        "source": "tool:EditFrontendComponent",
-        "content": "Okay, I'm changing the text in the header component.",
-        "metadata": {}
-    },
-    {
-        "id": "0c1098a3-db22-49cd-ab0a-e06ced62666f",
-        "timestamp": "2024-12-09T13:17:07.564247Z",
-        "role": "tool_result",
-        "source": "EditFrontendComponent",
-        "content": "",
-        "metadata": {
-            "tool_call_id": "call_oEY5umXLMOSnII48LHCQtf9E"
-        }
-    },
-    {
-        "id": "b190767d-968f-432d-9db9-f6a95a67d88c",
-        "timestamp": "2024-12-09T13:17:08.705316Z",
-        "role": "assistant",
-        "source": "base_assistant",
-        "content": "I've updated the text in the header component to \"Your next best favorite is here\". What's next?",
-        "metadata": {}
     }
 ]
