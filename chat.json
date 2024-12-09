@@ -22,5 +22,13 @@
         "source": "base_assistant",
         "content": "Please go to the \"Components\" tab on the MakeInfinite studio, drag and drop the button component into the canvas, and let me know once it's added. I can then help you customize it further!",
         "metadata": {}
+    },
+    {
+        "id": "b9fca607-b9fc-4245-a243-9e29ea4b7aaf",
+        "timestamp": "2024-12-09T12:29:04.136340Z",
+        "role": "user",
+        "source": "user",
+        "content": "Can you add a button component to the page that says 'Click me'?",
+        "metadata": {}
     }
 ]
