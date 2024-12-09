@@ -14,5 +14,13 @@
         "source": "user",
         "content": "Can you add a button component to the page that says 'Click me'?",
         "metadata": {}
+    },
+    {
+        "id": "cb5f59bd-e7b8-4f76-b60f-1dbede62bd10",
+        "timestamp": "2024-12-09T12:22:27.346461Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Please go to the \"Components\" tab on the MakeInfinite studio, drag and drop the button component into the canvas, and let me know once it's added. I can then help you customize it further!",
+        "metadata": {}
     }
 ]
