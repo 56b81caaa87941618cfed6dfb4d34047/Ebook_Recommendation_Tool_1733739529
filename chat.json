@@ -14,5 +14,13 @@
         "source": "user",
         "content": "List out all of the components in this project",
         "metadata": {}
+    },
+    {
+        "id": "7aacc1be-4d2e-47e1-875f-c4a395b7d580",
+        "timestamp": "2024-12-09T12:54:54.294659Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "There are no components listed yet in your project. You can add new components by going to the \"Components\" tab and dragging and dropping them into the canvas. What would you like to do next?",
+        "metadata": {}
     }
 ]
