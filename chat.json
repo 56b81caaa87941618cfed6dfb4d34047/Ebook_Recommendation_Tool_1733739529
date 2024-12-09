@@ -14,5 +14,13 @@
         "source": "user",
         "content": "List out all of the components in this project",
         "metadata": {}
+    },
+    {
+        "id": "7fb92d33-4d5f-49b4-a081-428e48ee2f2a",
+        "timestamp": "2024-12-09T12:59:41.602037Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Your project currently has the following components:\n1. Hero (`component_id`: `Hero1733739532`)\n2. Header (`component_id`: `Header1733739532`)\n3. Footer (`component_id`: `Footer1733739532`)\n\nWhat would you like to do next?",
+        "metadata": {}
     }
 ]
