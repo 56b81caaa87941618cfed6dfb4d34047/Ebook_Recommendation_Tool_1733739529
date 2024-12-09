@@ -6,5 +6,56 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "f4aed51e-4961-4b45-8f8e-0c309a2e812d",
+        "timestamp": "2024-12-09T13:41:48.249863Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to red",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
+    },
+    {
+        "id": "729c0ec9-dc56-444c-91d7-1888b094e234",
+        "timestamp": "2024-12-09T13:41:50.217377Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_88ZwTzU0ma93Op4bCwzeT1PX",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the background color to red\",\"acknowledgement_message\":\"Changing the header background color to red.\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "34353332-01e9-47c8-b4b1-6069b1f0621a",
+        "timestamp": "2024-12-09T13:41:50.327878Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Changing the header background color to red.",
+        "metadata": {}
+    },
+    {
+        "id": "57e459fb-cdb3-4b75-bc40-32d93f34b6be",
+        "timestamp": "2024-12-09T13:41:55.477351Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_88ZwTzU0ma93Op4bCwzeT1PX"
+        }
+    },
+    {
+        "id": "e9fe15f0-ac06-4ca1-85aa-291fd81fa4af",
+        "timestamp": "2024-12-09T13:41:56.552644Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "I've changed the header background color to red. What would you like to do next?",
+        "metadata": {}
     }
 ]
