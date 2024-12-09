@@ -6,5 +6,56 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "f6e687fa-6ac4-4194-abc9-9008135441b8",
+        "timestamp": "2024-12-09T13:41:21.932955Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to red",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
+    },
+    {
+        "id": "6b2492af-b949-43d1-a6ee-4a9303673f4c",
+        "timestamp": "2024-12-09T13:41:24.433614Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_6hBhqNVU2XItnRkXy6FgUCLq",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the background color to red\",\"acknowledgement_message\":\"Okay, changing the background color of the header to red...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "59832502-edb3-45a8-a325-cabe752903e8",
+        "timestamp": "2024-12-09T13:41:24.533282Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, changing the background color of the header to red...",
+        "metadata": {}
+    },
+    {
+        "id": "8bb608b9-d8ef-49dd-9645-29e54a8d82e2",
+        "timestamp": "2024-12-09T13:41:29.878946Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_6hBhqNVU2XItnRkXy6FgUCLq"
+        }
+    },
+    {
+        "id": "bb9d1966-7e2b-4d2c-a7f1-42fc096a445e",
+        "timestamp": "2024-12-09T13:41:31.035225Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "I've changed the background color of the header to red. What would you like to do next?",
+        "metadata": {}
     }
 ]
