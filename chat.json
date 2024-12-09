@@ -14,5 +14,13 @@
         "source": "user",
         "content": "List out all of the components in this project",
         "metadata": {}
+    },
+    {
+        "id": "a375b395-de96-4526-861b-2bfbf87f8d95",
+        "timestamp": "2024-12-09T12:57:35.443836Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The current components in your project are:\n- `Hero1733739532` (chart)\n- `Header1733739532` (chart)\n- `Footer1733739532` (chart)\n\nHow would you like to edit or add to these components?",
+        "metadata": {}
     }
 ]
