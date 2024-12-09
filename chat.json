@@ -6,5 +6,13 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "90828cab-acb5-4167-a6f5-8fab2255f856",
+        "timestamp": "2024-12-09T12:54:52.281205Z",
+        "role": "user",
+        "source": "user",
+        "content": "List out all of the components in this project",
+        "metadata": {}
     }
 ]
