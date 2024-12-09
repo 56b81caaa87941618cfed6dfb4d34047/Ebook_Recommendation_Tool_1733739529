@@ -210,5 +210,15 @@
         "source": "base_assistant",
         "content": "The background color of the hero section has been changed to green. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "dc1ddf60-7b05-4068-b1fa-9fe0ce98d821",
+        "timestamp": "2024-12-09T14:53:00.775200Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to red",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
     }
 ]
