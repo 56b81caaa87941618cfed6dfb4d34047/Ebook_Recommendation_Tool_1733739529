@@ -57,5 +57,23 @@
         "source": "base_assistant",
         "content": "Okay, I've changed the background color to red in the header. What else would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "480b1221-2cd5-4d35-8ce6-5db193b34040",
+        "timestamp": "2024-12-09T13:46:03.639815Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to red",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
+    },
+    {
+        "id": "733acf13-c392-4aa1-8194-8714e2bb8abb",
+        "timestamp": "2024-12-09T13:46:05.664999Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "It looks like the background color has already been changed to red. Would you like to make any other changes?",
+        "metadata": {}
     }
 ]
