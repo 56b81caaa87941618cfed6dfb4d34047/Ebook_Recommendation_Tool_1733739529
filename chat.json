@@ -567,5 +567,15 @@
         "source": "base_assistant",
         "content": "The background color of the header has been changed to red. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "5544d048-e647-4efb-b884-d13916f2ca5c",
+        "timestamp": "2024-12-09T14:06:54.533517Z",
+        "role": "user",
+        "source": "user",
+        "content": "Now change the background color to blue\"",
+        "metadata": {
+            "component_id": "Hero1733739532"
+        }
     }
 ]
