@@ -6,56 +6,5 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
-    },
-    {
-        "id": "22b31aaa-48ce-4046-9f63-1fae19a75e09",
-        "timestamp": "2024-12-09T13:17:25.134423Z",
-        "role": "user",
-        "source": "user",
-        "content": "Change the text to say \"Your next best favorite is here\"",
-        "metadata": {
-            "component_id": "Header1733739532"
-        }
-    },
-    {
-        "id": "3859c119-b6fd-404d-abc0-92bc07c1a9c3",
-        "timestamp": "2024-12-09T13:17:27.109122Z",
-        "role": "tool_call",
-        "source": "base_assistant",
-        "content": null,
-        "metadata": {
-            "id": "call_ogRFDuZr8KXKCbxx13SH9GYu",
-            "function": {
-                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the text to say 'Your next best favorite is here'\",\"acknowledgement_message\":\"Updating the text in the header component...\"}",
-                "name": "EditFrontendComponent"
-            },
-            "type": "function"
-        }
-    },
-    {
-        "id": "19a5cfb9-4317-436a-94dd-34c1c4028e8f",
-        "timestamp": "2024-12-09T13:17:27.201953Z",
-        "role": "assistant",
-        "source": "tool:EditFrontendComponent",
-        "content": "Updating the text in the header component...",
-        "metadata": {}
-    },
-    {
-        "id": "4473fb63-5e05-41f4-8cf1-05cb70fcd7a4",
-        "timestamp": "2024-12-09T13:17:32.024496Z",
-        "role": "tool_result",
-        "source": "EditFrontendComponent",
-        "content": "",
-        "metadata": {
-            "tool_call_id": "call_ogRFDuZr8KXKCbxx13SH9GYu"
-        }
-    },
-    {
-        "id": "077a2e23-bdc4-4ab5-8b64-e17a4d007773",
-        "timestamp": "2024-12-09T13:17:33.117272Z",
-        "role": "assistant",
-        "source": "base_assistant",
-        "content": "The text in the header component has been updated to \"Your next best favorite is here.\" What would you like to do next?",
-        "metadata": {}
     }
 ]
