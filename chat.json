@@ -6,5 +6,56 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "d1959d13-597e-4aa0-aa22-7f7e272650f3",
+        "timestamp": "2024-12-09T13:24:25.782047Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the text to say \"Your next best favorite is here\"",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
+    },
+    {
+        "id": "ca7a8bcb-cc15-47ed-afe6-48f0fe929529",
+        "timestamp": "2024-12-09T13:24:28.158268Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_YThTKST7LXktaS8YqXq3THXW",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change text to say 'Your next best favorite is here'\",\"acknowledgement_message\":\"Okay, updating the header text.\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "ad127a1b-3d84-4e10-873a-12489b02f616",
+        "timestamp": "2024-12-09T13:24:28.252118Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, updating the header text.",
+        "metadata": {}
+    },
+    {
+        "id": "99c47b51-6eab-4af0-ab74-c6a98e08d67b",
+        "timestamp": "2024-12-09T13:24:35.151903Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_YThTKST7LXktaS8YqXq3THXW"
+        }
+    },
+    {
+        "id": "9033c2da-4de8-43fb-91fb-7b91c5690434",
+        "timestamp": "2024-12-09T13:24:36.652619Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The header text has been updated to \"Your next best favorite is here.\" What else would you like to do?",
+        "metadata": {}
     }
 ]
