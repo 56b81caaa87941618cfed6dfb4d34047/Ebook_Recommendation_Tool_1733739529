@@ -100,5 +100,13 @@
         "metadata": {
             "tool_call_id": "call_vLS1ARghUNXEtdxjn0FeUdz6"
         }
+    },
+    {
+        "id": "7342a6f6-8036-4dfd-a00b-fa66c1a57e7d",
+        "timestamp": "2024-12-09T14:04:58.492666Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The background color of the Hero component has been changed to blue. What's next?",
+        "metadata": {}
     }
 ]
