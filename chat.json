@@ -159,5 +159,23 @@
         "source": "base_assistant",
         "content": "I've changed the background color of the Header component back to red. What else would you like to modify?",
         "metadata": {}
+    },
+    {
+        "id": "cdf0070b-1c46-4a42-93e3-fc12fbd873f3",
+        "timestamp": "2024-12-09T14:02:44.393090Z",
+        "role": "user",
+        "source": "user",
+        "content": "Now change the background color to blue\"",
+        "metadata": {
+            "component_id": "Hero1733739532"
+        }
+    },
+    {
+        "id": "6951b0fe-8d44-4e35-96bf-4d760dc75604",
+        "timestamp": "2024-12-09T14:02:45.987962Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The background color of the Hero component is already blue. Would you like me to make any other adjustments?",
+        "metadata": {}
     }
 ]
