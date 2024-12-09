@@ -6,5 +6,21 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "f4fcfd9c-bc17-418f-826f-2eb3811b20ef",
+        "timestamp": "2024-12-09T12:22:23.047811Z",
+        "role": "user",
+        "source": "user",
+        "content": "Can you add a button component to the page that says 'Click me'?",
+        "metadata": {}
+    },
+    {
+        "id": "cb5f59bd-e7b8-4f76-b60f-1dbede62bd10",
+        "timestamp": "2024-12-09T12:22:27.346461Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Please go to the \"Components\" tab on the MakeInfinite studio, drag and drop the button component into the canvas, and let me know once it's added. I can then help you customize it further!",
+        "metadata": {}
     }
 ]
