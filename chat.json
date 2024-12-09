@@ -108,5 +108,15 @@
         "source": "base_assistant",
         "content": "Okay, I've changed the text color to yellow in the header component. Anything else you would like to modify?",
         "metadata": {}
+    },
+    {
+        "id": "483e2586-ae1e-4cfa-adbe-0f1c0a51fa33",
+        "timestamp": "2024-12-09T15:10:41.729855Z",
+        "role": "user",
+        "source": "user",
+        "content": "Make the text bigger",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
     }
 ]
