@@ -54,5 +54,21 @@
         "source": "base_assistant",
         "content": "Please go to the \"Components\" tab on the MakeInfinite studio, drag and drop the button component into the canvas, and let me know once it's added. I can then help you customize it.",
         "metadata": {}
+    },
+    {
+        "id": "8831791c-1b12-40c6-bdcc-f1b429c2970a",
+        "timestamp": "2024-12-09T12:36:44.063224Z",
+        "role": "user",
+        "source": "user",
+        "content": "What is this project about?",
+        "metadata": {}
+    },
+    {
+        "id": "f12550fd-dab1-422f-8531-3c5d50ee63ef",
+        "timestamp": "2024-12-09T12:36:48.477465Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "This project is an Ebook Recommendation Tool. It aims to provide users with personalized ebook recommendations. How would you like to proceed with building it?",
+        "metadata": {}
     }
 ]
