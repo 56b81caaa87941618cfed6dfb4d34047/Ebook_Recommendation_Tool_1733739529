@@ -6,56 +6,5 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
-    },
-    {
-        "id": "a4941a4a-4e59-400e-82da-d58bcf4c89d0",
-        "timestamp": "2024-12-09T13:04:06.449150Z",
-        "role": "user",
-        "source": "user",
-        "content": "Change the text to say \"Your next favourite book is here\"",
-        "metadata": {
-            "component_id": "Header1733739532"
-        }
-    },
-    {
-        "id": "b85fce2d-2c23-4665-905e-1f48bbcdabbf",
-        "timestamp": "2024-12-09T13:04:08.729742Z",
-        "role": "tool_call",
-        "source": "base_assistant",
-        "content": null,
-        "metadata": {
-            "id": "call_rTIOO186AUgRdPylHDK8j550",
-            "function": {
-                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the text to say 'Your next favourite book is here'\",\"acknowledgement_message\":\"Changing the text in the header component to 'Your next favourite book is here'...\"}",
-                "name": "EditFrontendComponent"
-            },
-            "type": "function"
-        }
-    },
-    {
-        "id": "8b0aec4c-683f-4cd9-8dc5-16c25e99d3da",
-        "timestamp": "2024-12-09T13:04:08.835716Z",
-        "role": "assistant",
-        "source": "tool:EditFrontendComponent",
-        "content": "Changing the text in the header component to 'Your next favourite book is here'...",
-        "metadata": {}
-    },
-    {
-        "id": "9c12d9e0-5bf5-4a31-828b-bbb9c9ea4f57",
-        "timestamp": "2024-12-09T13:04:16.077477Z",
-        "role": "tool_result",
-        "source": "EditFrontendComponent",
-        "content": "diff --git a/src/ProjectComponents/Header1733739532/component.tsx b/src/ProjectComponents/Header1733739532/component.tsx\nindex 3f75bd7..84ec019 100644\n--- a/src/ProjectComponents/Header1733739532/component.tsx\n+++ b/src/ProjectComponents/Header1733739532/component.tsx\n@@ -4,7 +4,7 @@ const Header: React.FC = () => {\n   return (\n     <header className=\"bg-blue-500 text-white p-4 w-full h-full\"> {/* Full width and height */}\n       <div className=\"container mx-auto flex justify-between items-center h-full\">\n-        <div className=\"text-2xl font-bold\">BookBuddy</div>\n+        <div className=\"text-2xl font-bold\">Your next favourite book is here</div>\n       </div>\n     </header>\n   );\n",
-        "metadata": {
-            "tool_call_id": "call_rTIOO186AUgRdPylHDK8j550"
-        }
-    },
-    {
-        "id": "ac84604d-9f40-488c-a88d-6d12b30a514d",
-        "timestamp": "2024-12-09T13:04:17.274092Z",
-        "role": "assistant",
-        "source": "base_assistant",
-        "content": "The text in the header component has been changed to \"Your next favourite book is here\". What would you like to do next?",
-        "metadata": {}
     }
 ]
