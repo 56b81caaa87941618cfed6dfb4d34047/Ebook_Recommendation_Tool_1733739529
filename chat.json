@@ -6,5 +6,56 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "63542b8a-f9a4-4e87-b0a4-4171b2f1f28e",
+        "timestamp": "2024-12-09T13:34:30.964539Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to red",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
+    },
+    {
+        "id": "d6877b5b-0ba6-4153-a9c0-11c8f578d502",
+        "timestamp": "2024-12-09T13:34:33.397983Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_28VVfNSoWs0icaKJQWHu6WEW",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the background color to red\",\"acknowledgement_message\":\"Okay, I'm changing the background color to red for the header component\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "74c2990c-6443-4146-b38f-a4bbbe1c2ca0",
+        "timestamp": "2024-12-09T13:34:33.491717Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, I'm changing the background color to red for the header component",
+        "metadata": {}
+    },
+    {
+        "id": "dffdbc4a-3adc-4ed2-a6ae-e3102f8412e0",
+        "timestamp": "2024-12-09T13:34:38.663776Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_28VVfNSoWs0icaKJQWHu6WEW"
+        }
+    },
+    {
+        "id": "84a2a397-e5fc-4943-ab7d-5fdeae0347c8",
+        "timestamp": "2024-12-09T13:34:39.670971Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The background color of the header component has been changed to red. What would you like to do next?",
+        "metadata": {}
     }
 ]
