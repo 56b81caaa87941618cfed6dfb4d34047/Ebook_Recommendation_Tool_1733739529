@@ -414,5 +414,15 @@
         "source": "base_assistant",
         "content": "The background color of the hero component has been changed to blue. How else can I assist with your project?",
         "metadata": {}
+    },
+    {
+        "id": "2398301c-51a4-4d01-99e0-061ef9048222",
+        "timestamp": "2024-12-09T14:38:51.685987Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to red",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
     }
 ]
