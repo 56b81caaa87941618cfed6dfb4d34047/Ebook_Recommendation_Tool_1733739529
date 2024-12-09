@@ -6,5 +6,56 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "5ca6374f-b92d-4c49-a697-7290954f99f8",
+        "timestamp": "2024-12-09T13:37:15.166184Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to red",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
+    },
+    {
+        "id": "42fa4752-d073-4c5a-bb9d-028f3b8894b0",
+        "timestamp": "2024-12-09T13:37:18.087038Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_n0yprL2uUypUdv4lHj4YzMvi",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the background color to red\",\"acknowledgement_message\":\"Changing the background color to red in the header...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "2e3a4eec-b0d6-449f-8794-cf0769c50767",
+        "timestamp": "2024-12-09T13:37:18.177740Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Changing the background color to red in the header...",
+        "metadata": {}
+    },
+    {
+        "id": "78d46670-c338-4963-82ce-c198d501f82f",
+        "timestamp": "2024-12-09T13:37:26.397376Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_n0yprL2uUypUdv4lHj4YzMvi"
+        }
+    },
+    {
+        "id": "aa48229e-fffd-4114-8203-bf863fdd24ff",
+        "timestamp": "2024-12-09T13:37:28.275448Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The background color of the header has been changed to red. What would you like to do next?",
+        "metadata": {}
     }
 ]
