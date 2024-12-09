@@ -49,5 +49,13 @@
         "metadata": {
             "tool_call_id": "call_rTIOO186AUgRdPylHDK8j550"
         }
+    },
+    {
+        "id": "ac84604d-9f40-488c-a88d-6d12b30a514d",
+        "timestamp": "2024-12-09T13:04:17.274092Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The text in the header component has been changed to \"Your next favourite book is here\". What would you like to do next?",
+        "metadata": {}
     }
 ]
