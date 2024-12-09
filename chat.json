@@ -873,5 +873,15 @@
         "source": "base_assistant",
         "content": "The background color of the header component has been changed to red. What other changes should we make?",
         "metadata": {}
+    },
+    {
+        "id": "9f53a306-2240-45cf-8df1-2adddf64218e",
+        "timestamp": "2024-12-09T14:40:42.986378Z",
+        "role": "user",
+        "source": "user",
+        "content": "Now change the background color to blue\"",
+        "metadata": {
+            "component_id": "Hero1733739532"
+        }
     }
 ]
