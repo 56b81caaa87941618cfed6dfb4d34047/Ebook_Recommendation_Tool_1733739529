@@ -159,5 +159,15 @@
         "source": "base_assistant",
         "content": "The text in the header has been made larger. What else would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "1987996c-c083-4fc3-bb04-8ff464022a6a",
+        "timestamp": "2024-12-09T15:13:46.371246Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to green",
+        "metadata": {
+            "component_id": "Hero1733739532"
+        }
     }
 ]
