@@ -6,5 +6,56 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "9a793b6d-b132-489f-8f64-d0386f691e4a",
+        "timestamp": "2024-12-09T13:28:22.431542Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to red",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
+    },
+    {
+        "id": "83c34e99-958f-40b8-a71c-f3bfd6c85147",
+        "timestamp": "2024-12-09T13:28:24.340648Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_9RGFueuwaoiEcGmxM52bqdvX",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the background color to red\",\"acknowledgement_message\":\"Changing the background color to red...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "92fcc32c-0239-40c9-82b0-20ad65b4bf49",
+        "timestamp": "2024-12-09T13:28:24.429817Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Changing the background color to red...",
+        "metadata": {}
+    },
+    {
+        "id": "76edda34-5799-4f2b-8b6e-3407c5bb22c3",
+        "timestamp": "2024-12-09T13:28:29.762472Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_9RGFueuwaoiEcGmxM52bqdvX"
+        }
+    },
+    {
+        "id": "708b0323-d24c-4bce-82f2-aa90a68acd67",
+        "timestamp": "2024-12-09T13:28:30.928353Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The background color of the header has been changed to red. What else would you like to do?",
+        "metadata": {}
     }
 ]
