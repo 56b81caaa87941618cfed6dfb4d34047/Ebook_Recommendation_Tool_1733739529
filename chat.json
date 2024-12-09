@@ -159,5 +159,15 @@
         "source": "base_assistant",
         "content": "Okay, I've increased the text size in the header component. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "56687a22-3eed-449c-90b9-21230e95ded1",
+        "timestamp": "2024-12-09T15:10:51.889439Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to green",
+        "metadata": {
+            "component_id": "Hero1733739532"
+        }
     }
 ]
