@@ -6,5 +6,56 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "baf29775-7017-42c5-8a3d-5c1293964e00",
+        "timestamp": "2024-12-09T13:33:39.047983Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to red",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
+    },
+    {
+        "id": "49e51756-35df-4fbf-920e-aba9d4f1ed1e",
+        "timestamp": "2024-12-09T13:33:41.744353Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_DaX8ePfeJ1mKqsjoK1sp9Jk3",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the background color to red\",\"acknowledgement_message\":\"Changing the background color to red for the selected component...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "cfdc6f8e-18d4-40a8-928c-86b443616004",
+        "timestamp": "2024-12-09T13:33:41.839345Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Changing the background color to red for the selected component...",
+        "metadata": {}
+    },
+    {
+        "id": "7bf77f6c-b190-4fc0-a3c4-9fa93e51935c",
+        "timestamp": "2024-12-09T13:33:47.065281Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_DaX8ePfeJ1mKqsjoK1sp9Jk3"
+        }
+    },
+    {
+        "id": "88865f50-b7c1-474f-b7af-d7ab5fa6ec00",
+        "timestamp": "2024-12-09T13:33:48.271409Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The background color has been changed to red for the selected component. What would you like to do next?",
+        "metadata": {}
     }
 ]
