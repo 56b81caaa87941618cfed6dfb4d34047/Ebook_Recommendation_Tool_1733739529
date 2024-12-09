@@ -480,5 +480,15 @@
         "source": "base_assistant",
         "content": "The text size in the header has already been increased. Is there another adjustment or addition you would like to make?",
         "metadata": {}
+    },
+    {
+        "id": "4e85d7e6-53c5-43af-b926-ad099a6eec73",
+        "timestamp": "2024-12-09T14:54:00.605773Z",
+        "role": "user",
+        "source": "user",
+        "content": "Now change the background color to green\"",
+        "metadata": {
+            "component_id": "Hero1733739532"
+        }
     }
 ]
