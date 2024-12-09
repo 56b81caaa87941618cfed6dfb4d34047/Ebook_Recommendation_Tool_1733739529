@@ -6,5 +6,21 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "90828cab-acb5-4167-a6f5-8fab2255f856",
+        "timestamp": "2024-12-09T12:54:52.281205Z",
+        "role": "user",
+        "source": "user",
+        "content": "List out all of the components in this project",
+        "metadata": {}
+    },
+    {
+        "id": "7aacc1be-4d2e-47e1-875f-c4a395b7d580",
+        "timestamp": "2024-12-09T12:54:54.294659Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "There are no components listed yet in your project. You can add new components by going to the \"Components\" tab and dragging and dropping them into the canvas. What would you like to do next?",
+        "metadata": {}
     }
 ]
