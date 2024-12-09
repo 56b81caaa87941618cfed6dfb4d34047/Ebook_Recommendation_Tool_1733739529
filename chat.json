@@ -282,5 +282,15 @@
         "source": "base_assistant",
         "content": "The background color of the hero section has already been changed to green. Is there anything else you'd like to update or customize in your app?",
         "metadata": {}
+    },
+    {
+        "id": "7f9c1c9e-7039-43bb-bea6-7e490ca6e00e",
+        "timestamp": "2024-12-09T14:53:19.309029Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to red",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
     }
 ]
