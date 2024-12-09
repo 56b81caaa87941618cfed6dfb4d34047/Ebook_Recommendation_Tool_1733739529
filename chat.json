@@ -6,5 +6,56 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "dbfc334c-437b-4920-b8a8-ab980dc61670",
+        "timestamp": "2024-12-09T13:34:54.970559Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to red",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
+    },
+    {
+        "id": "e5f6a7fd-7801-44ae-8f62-d53150f9dffe",
+        "timestamp": "2024-12-09T13:34:56.949069Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_KSXQosjy8PlKOMuHKej39k8Q",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the background color to red.\",\"acknowledgement_message\":\"Okay, I'm changing the background color to red for the Header component.\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "4d97cf3f-74f0-4a3e-819b-e0cf90e960a9",
+        "timestamp": "2024-12-09T13:34:57.031192Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, I'm changing the background color to red for the Header component.",
+        "metadata": {}
+    },
+    {
+        "id": "40acd2ea-ebf6-4c10-b6db-cf90f6badc7d",
+        "timestamp": "2024-12-09T13:35:03.789282Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_KSXQosjy8PlKOMuHKej39k8Q"
+        }
+    },
+    {
+        "id": "b9d2a55f-3a12-48f5-8e43-bc3075dcf3d7",
+        "timestamp": "2024-12-09T13:35:04.863655Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "I have changed the background color to red for the Header component. What would you like to do next?",
+        "metadata": {}
     }
 ]
