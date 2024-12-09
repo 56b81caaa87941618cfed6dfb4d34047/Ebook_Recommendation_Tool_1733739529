@@ -108,5 +108,15 @@
         "source": "base_assistant",
         "content": "I have changed the text color in the header to yellow. Do you need any other changes?",
         "metadata": {}
+    },
+    {
+        "id": "8c1f7769-f4a0-46c4-97fb-3754860cb5e0",
+        "timestamp": "2024-12-09T15:26:27.808572Z",
+        "role": "user",
+        "source": "user",
+        "content": "Make the text bigger",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
     }
 ]
