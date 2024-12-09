@@ -516,5 +516,15 @@
         "source": "base_assistant",
         "content": "The background color of the header is already red. If you need any other modifications, feel free to let me know!",
         "metadata": {}
+    },
+    {
+        "id": "1e5873cc-15e1-4775-879d-d960a497b156",
+        "timestamp": "2024-12-09T14:54:09.288861Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the text color to yellow\"",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
     }
 ]
