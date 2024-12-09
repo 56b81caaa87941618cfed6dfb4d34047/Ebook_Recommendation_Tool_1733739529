@@ -57,5 +57,56 @@
         "source": "base_assistant",
         "content": "Okay, I've changed the background color to red in the header component. What else would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "3568b7f9-5476-4c9f-9b26-3d14177e07f3",
+        "timestamp": "2024-12-09T15:10:32.102002Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the text color to yellow",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
+    },
+    {
+        "id": "d60f2ace-eb09-4ac7-818e-e27b25e7d227",
+        "timestamp": "2024-12-09T15:10:33.857340Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_wHBE3U7EFlsiKbbq3MTxDnAP",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the text color to yellow\",\"acknowledgement_message\":\"Okay, I'm changing the text color to yellow in the header component.\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "6adb6912-d9f4-4514-9943-77f40c3f4450",
+        "timestamp": "2024-12-09T15:10:33.946145Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, I'm changing the text color to yellow in the header component.",
+        "metadata": {}
+    },
+    {
+        "id": "174972c7-dfd2-4dc2-90ef-2223dd4f3957",
+        "timestamp": "2024-12-09T15:10:39.077456Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_wHBE3U7EFlsiKbbq3MTxDnAP"
+        }
+    },
+    {
+        "id": "6b4cf5ac-970b-4659-8032-baaf3d146284",
+        "timestamp": "2024-12-09T15:10:40.288663Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Okay, I've changed the text color to yellow in the header component. Anything else you would like to modify?",
+        "metadata": {}
     }
 ]
