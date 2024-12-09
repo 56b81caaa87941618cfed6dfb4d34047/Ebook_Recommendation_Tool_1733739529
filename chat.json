@@ -108,5 +108,56 @@
         "source": "base_assistant",
         "content": "The hero component background color has been set to blue. What else would you like to modify?",
         "metadata": {}
+    },
+    {
+        "id": "c91a9132-f277-4d2a-9853-cc4a7003dbfb",
+        "timestamp": "2024-12-09T13:53:19.391031Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to red",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
+    },
+    {
+        "id": "954659cb-90c1-4d57-8440-906f22ce47d9",
+        "timestamp": "2024-12-09T13:53:20.991769Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_krFSvTixg46oyvUG0WELZpD2",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the background color to red\",\"acknowledgement_message\":\"Setting the header background color to red...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "7295be26-7878-433d-849e-8be5544fd05c",
+        "timestamp": "2024-12-09T13:53:21.106385Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Setting the header background color to red...",
+        "metadata": {}
+    },
+    {
+        "id": "80b224fd-c9ab-4161-aa9a-2e996327b426",
+        "timestamp": "2024-12-09T13:53:26.394366Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_krFSvTixg46oyvUG0WELZpD2"
+        }
+    },
+    {
+        "id": "4296372c-8357-4dbc-a7d7-3fb167d8c473",
+        "timestamp": "2024-12-09T13:53:27.595378Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The header background color was already changed to red earlier. Any other changes you would like to make?",
+        "metadata": {}
     }
 ]
