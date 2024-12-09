@@ -159,5 +159,15 @@
         "source": "base_assistant",
         "content": "The background color has been changed back to red. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "92b579ae-c016-4262-ba4a-c16112f36245",
+        "timestamp": "2024-12-09T13:56:22.771906Z",
+        "role": "user",
+        "source": "user",
+        "content": "Now change the background color to blue\"",
+        "metadata": {
+            "component_id": "Hero1733739532"
+        }
     }
 ]
