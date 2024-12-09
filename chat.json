@@ -6,56 +6,5 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
-    },
-    {
-        "id": "40373bf8-bc70-4601-9673-56d0f7619989",
-        "timestamp": "2024-12-09T13:18:04.005797Z",
-        "role": "user",
-        "source": "user",
-        "content": "Change the text to say \"Your next best favorite is here\"",
-        "metadata": {
-            "component_id": "Header1733739532"
-        }
-    },
-    {
-        "id": "2976faf8-3cd1-4b69-8680-ff55d771f896",
-        "timestamp": "2024-12-09T13:18:06.328504Z",
-        "role": "tool_call",
-        "source": "base_assistant",
-        "content": null,
-        "metadata": {
-            "id": "call_gLj636CKVyxUjcsi9uxOilB8",
-            "function": {
-                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the text to say 'Your next best favorite is here'\",\"acknowledgement_message\":\"I'm updating the text in the header...\"}",
-                "name": "EditFrontendComponent"
-            },
-            "type": "function"
-        }
-    },
-    {
-        "id": "ed18621f-283f-4558-8f60-511f484e8dbb",
-        "timestamp": "2024-12-09T13:18:06.426573Z",
-        "role": "assistant",
-        "source": "tool:EditFrontendComponent",
-        "content": "I'm updating the text in the header...",
-        "metadata": {}
-    },
-    {
-        "id": "03e9f9bb-be28-43fd-b3f9-9389c5aa8ebb",
-        "timestamp": "2024-12-09T13:18:11.973894Z",
-        "role": "tool_result",
-        "source": "EditFrontendComponent",
-        "content": "",
-        "metadata": {
-            "tool_call_id": "call_gLj636CKVyxUjcsi9uxOilB8"
-        }
-    },
-    {
-        "id": "1eedb5ca-2639-4e3b-be31-09c82c9dcd07",
-        "timestamp": "2024-12-09T13:18:12.970165Z",
-        "role": "assistant",
-        "source": "base_assistant",
-        "content": "I've updated the text in the header. What else would you like to do?",
-        "metadata": {}
     }
 ]
