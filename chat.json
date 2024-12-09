@@ -6,5 +6,15 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "6a2c3734-4fde-423f-b36f-b4c5168e8abb",
+        "timestamp": "2024-12-09T13:17:00.049496Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the text to say \"Your next best favorite is here\"",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
     }
 ]
