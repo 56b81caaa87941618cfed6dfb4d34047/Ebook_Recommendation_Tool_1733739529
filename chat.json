@@ -6,5 +6,56 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
+    },
+    {
+        "id": "dfec28e3-958e-4996-9b05-f3bb23e7f3c3",
+        "timestamp": "2024-12-09T13:10:25.788255Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the text to say \"Your next best book is here\"",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
+    },
+    {
+        "id": "8463d1df-1158-4860-a8e2-4f1b75afff06",
+        "timestamp": "2024-12-09T13:10:28.065077Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_ky8vcFfXfBcXS2YOiPGrPTJw",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the text to say 'Your next best book is here'\",\"acknowledgement_message\":\"Okay, changing the text to 'Your next best book is here'\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "9ee03c18-b7c6-46e8-ae44-7d3591a2a3b5",
+        "timestamp": "2024-12-09T13:10:28.177425Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, changing the text to 'Your next best book is here'",
+        "metadata": {}
+    },
+    {
+        "id": "6054f82d-6b5c-406d-b072-1102501cf8dc",
+        "timestamp": "2024-12-09T13:10:33.428507Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "diff --git a/src/ProjectComponents/Header1733739532/component.tsx b/src/ProjectComponents/Header1733739532/component.tsx\nindex 84ec019..0871131 100644\n--- a/src/ProjectComponents/Header1733739532/component.tsx\n+++ b/src/ProjectComponents/Header1733739532/component.tsx\n@@ -4,7 +4,7 @@ const Header: React.FC = () => {\n   return (\n     <header className=\"bg-blue-500 text-white p-4 w-full h-full\"> {/* Full width and height */}\n       <div className=\"container mx-auto flex justify-between items-center h-full\">\n-        <div className=\"text-2xl font-bold\">Your next favourite book is here</div>\n+        <div className=\"text-2xl font-bold\">Your next best book is here</div>\n       </div>\n     </header>\n   );\n",
+        "metadata": {
+            "tool_call_id": "call_ky8vcFfXfBcXS2YOiPGrPTJw"
+        }
+    },
+    {
+        "id": "b5547c45-958c-4901-8e79-c7a546abbf32",
+        "timestamp": "2024-12-09T13:10:34.497641Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Okay, I've changed the text to \"Your next best book is here\". What would you like to do next?",
+        "metadata": {}
     }
 ]
