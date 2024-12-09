@@ -16,5 +16,20 @@
         "metadata": {
             "component_id": "Header1733739532"
         }
+    },
+    {
+        "id": "b85fce2d-2c23-4665-905e-1f48bbcdabbf",
+        "timestamp": "2024-12-09T13:04:08.729742Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_rTIOO186AUgRdPylHDK8j550",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the text to say 'Your next favourite book is here'\",\"acknowledgement_message\":\"Changing the text in the header component to 'Your next favourite book is here'...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
     }
 ]
