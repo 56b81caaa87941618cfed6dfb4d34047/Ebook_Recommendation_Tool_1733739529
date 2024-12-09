@@ -159,5 +159,56 @@
         "source": "base_assistant",
         "content": "Okay, I've increased the text size in the header component. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "56687a22-3eed-449c-90b9-21230e95ded1",
+        "timestamp": "2024-12-09T15:10:51.889439Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to green",
+        "metadata": {
+            "component_id": "Hero1733739532"
+        }
+    },
+    {
+        "id": "1a8d5b7c-1b44-4202-8458-a846e4c4965c",
+        "timestamp": "2024-12-09T15:10:53.699304Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_baCHDrb3z71tvT7ClWFIbrIA",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1733739532\",\"change_description\":\"Change the background color to green\",\"acknowledgement_message\":\"Okay, I'm changing the background color to green in the hero component.\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "e5630f5f-4a06-4da8-97e7-44480b9236a1",
+        "timestamp": "2024-12-09T15:10:53.806248Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, I'm changing the background color to green in the hero component.",
+        "metadata": {}
+    },
+    {
+        "id": "2d6b5638-c39e-40ec-b5a3-00e0f68e44eb",
+        "timestamp": "2024-12-09T15:10:58.515816Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_baCHDrb3z71tvT7ClWFIbrIA"
+        }
+    },
+    {
+        "id": "17de9f28-86c3-43ab-99a9-3bcacf1423b6",
+        "timestamp": "2024-12-09T15:10:59.222586Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "Okay, I've changed the background color to green in the hero component. What else would you like to adjust?",
+        "metadata": {}
     }
 ]
