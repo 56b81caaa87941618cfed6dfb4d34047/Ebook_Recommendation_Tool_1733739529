@@ -867,5 +867,56 @@
         "source": "base_assistant",
         "content": "The text in the header has been made bigger. Any other changes or additions you would like to make?",
         "metadata": {}
+    },
+    {
+        "id": "8ed70dd0-892e-4445-b228-caa31d577bf9",
+        "timestamp": "2024-12-09T14:55:28.502298Z",
+        "role": "user",
+        "source": "user",
+        "content": "Now change the background color to green\"",
+        "metadata": {
+            "component_id": "Hero1733739532"
+        }
+    },
+    {
+        "id": "df876d7d-6bb1-474a-aad3-018f73a6b00e",
+        "timestamp": "2024-12-09T14:55:30.530510Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_sAPgvT5bQDSRZfGkt1JWz4dm",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1733739532\",\"change_description\":\"Change the background color to green\",\"acknowledgement_message\":\"Okay, I'm changing the background color to green...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "60418569-97be-4aff-8cef-df50a5e62c6d",
+        "timestamp": "2024-12-09T14:55:30.627325Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, I'm changing the background color to green...",
+        "metadata": {}
+    },
+    {
+        "id": "273767d2-39bc-479b-b7ef-a62c163bc96f",
+        "timestamp": "2024-12-09T14:55:35.851309Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_sAPgvT5bQDSRZfGkt1JWz4dm"
+        }
+    },
+    {
+        "id": "7611ce33-81c5-4f8c-954d-50965f896b65",
+        "timestamp": "2024-12-09T14:55:37.341323Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The background color of the hero section has been changed to green. What would you like to do next?",
+        "metadata": {}
     }
 ]
