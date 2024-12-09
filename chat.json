@@ -159,5 +159,56 @@
         "source": "base_assistant",
         "content": "I have increased the text size in the header. Do you need any other changes?",
         "metadata": {}
+    },
+    {
+        "id": "ab4cbb85-504e-40de-923d-193cedc65961",
+        "timestamp": "2024-12-09T15:26:39.792302Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to green",
+        "metadata": {
+            "component_id": "Hero1733739532"
+        }
+    },
+    {
+        "id": "a545b2b2-ccdb-49c3-8480-6df4e4bf487d",
+        "timestamp": "2024-12-09T15:26:42.375683Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_AJDdn5eJBq9csQcyC4V6CwVW",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1733739532\",\"change_description\":\"Change the background color to green\",\"acknowledgement_message\":\"Okay, I'm changing the background color to green in the hero component...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "bf9c4db7-7457-4e93-aa9d-0a568f634811",
+        "timestamp": "2024-12-09T15:26:42.464200Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, I'm changing the background color to green in the hero component...",
+        "metadata": {}
+    },
+    {
+        "id": "8978b8d4-1227-4d17-9ba1-91e07e5fa7b9",
+        "timestamp": "2024-12-09T15:26:49.335658Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_AJDdn5eJBq9csQcyC4V6CwVW"
+        }
+    },
+    {
+        "id": "deb441ec-dbb0-4123-8a7d-d8d6ba4540ec",
+        "timestamp": "2024-12-09T15:26:50.873286Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "I have changed the background color in the hero component to green. Any other changes needed?",
+        "metadata": {}
     }
 ]
