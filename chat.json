@@ -6,21 +6,5 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
-    },
-    {
-        "id": "b38630e4-3c62-46a2-bdb0-ee355795a49d",
-        "timestamp": "2024-12-09T12:51:52.780100Z",
-        "role": "user",
-        "source": "user",
-        "content": "List out all of the components in this project",
-        "metadata": {}
-    },
-    {
-        "id": "ece36ac4-4ac1-454e-8aa3-8fe0e77fa158",
-        "timestamp": "2024-12-09T12:51:55.172557Z",
-        "role": "assistant",
-        "source": "base_assistant",
-        "content": "The current components in this project are:\n\n1. Hero component (chart_id: `Hero1733739532`)\n2. Header component (chart_id: `Header1733739532`)\n3. Footer component (chart_id: `Footer1733739532`)\n\nHow would you like to proceed with these components?",
-        "metadata": {}
     }
 ]
