@@ -6,56 +6,5 @@
         "source": "base_assistant",
         "content": "Welcome to your new project! I can help you edit it however you want. What would you like to do?",
         "metadata": {}
-    },
-    {
-        "id": "f4199cc7-1aac-4865-b974-e49a1ec48215",
-        "timestamp": "2024-12-09T13:04:54.820789Z",
-        "role": "user",
-        "source": "user",
-        "content": "Change the text to say \"Your next favourite book is here\"",
-        "metadata": {
-            "component_id": "Header1733739532"
-        }
-    },
-    {
-        "id": "b9f61326-5bb8-4543-891f-734d3187fad8",
-        "timestamp": "2024-12-09T13:04:57.504786Z",
-        "role": "tool_call",
-        "source": "base_assistant",
-        "content": null,
-        "metadata": {
-            "id": "call_fmXLpzRrqGsXJiz9TtjcyXHe",
-            "function": {
-                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the text to say 'Your next favourite book is here'\",\"acknowledgement_message\":\"Updated the header text.\"}",
-                "name": "EditFrontendComponent"
-            },
-            "type": "function"
-        }
-    },
-    {
-        "id": "faa1e738-e9be-4fe0-b452-43aeace4e648",
-        "timestamp": "2024-12-09T13:04:57.599056Z",
-        "role": "assistant",
-        "source": "tool:EditFrontendComponent",
-        "content": "Updated the header text.",
-        "metadata": {}
-    },
-    {
-        "id": "cf5cf647-5cbe-4ba3-a680-fb4ceb7912ba",
-        "timestamp": "2024-12-09T13:05:02.342222Z",
-        "role": "tool_result",
-        "source": "EditFrontendComponent",
-        "content": "",
-        "metadata": {
-            "tool_call_id": "call_fmXLpzRrqGsXJiz9TtjcyXHe"
-        }
-    },
-    {
-        "id": "9784862c-0019-46f2-a0e6-c0d500b42873",
-        "timestamp": "2024-12-09T13:05:03.044365Z",
-        "role": "assistant",
-        "source": "base_assistant",
-        "content": "Updated the header text. What would you like to do next?",
-        "metadata": {}
     }
 ]
