@@ -57,5 +57,56 @@
         "source": "base_assistant",
         "content": "I have changed the background color of the header to red. What would you like to do next?",
         "metadata": {}
+    },
+    {
+        "id": "164b3805-8b16-4412-a931-dddaab716966",
+        "timestamp": "2024-12-09T15:26:16.628175Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the text color to yellow",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
+    },
+    {
+        "id": "aaf781c3-db8e-4170-b19a-020fa2b8aabe",
+        "timestamp": "2024-12-09T15:26:18.804445Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_HXD9sBGljJXSyKpfPZ6uh9ER",
+            "function": {
+                "arguments": "{\"component_id\":\"Header1733739532\",\"change_description\":\"Change the text color to yellow\",\"acknowledgement_message\":\"Okay, I'm changing the text color to yellow in the header component...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
+    },
+    {
+        "id": "5e1b55f7-6740-4e79-b3d5-d6f4562c1cd5",
+        "timestamp": "2024-12-09T15:26:18.893660Z",
+        "role": "assistant",
+        "source": "tool:EditFrontendComponent",
+        "content": "Okay, I'm changing the text color to yellow in the header component...",
+        "metadata": {}
+    },
+    {
+        "id": "d8e5faa0-1c85-4b07-8193-69bf27e20c94",
+        "timestamp": "2024-12-09T15:26:24.477555Z",
+        "role": "tool_result",
+        "source": "EditFrontendComponent",
+        "content": "",
+        "metadata": {
+            "tool_call_id": "call_HXD9sBGljJXSyKpfPZ6uh9ER"
+        }
+    },
+    {
+        "id": "4425ad51-2e5e-48c3-8b91-49ecc58d7836",
+        "timestamp": "2024-12-09T15:26:25.987620Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "I have changed the text color in the header to yellow. Do you need any other changes?",
+        "metadata": {}
     }
 ]
