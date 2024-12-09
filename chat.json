@@ -67,5 +67,20 @@
         "metadata": {
             "component_id": "Hero1733739532"
         }
+    },
+    {
+        "id": "fb78823b-994b-4456-871b-9d8f5e75fa7d",
+        "timestamp": "2024-12-09T13:28:10.991163Z",
+        "role": "tool_call",
+        "source": "base_assistant",
+        "content": null,
+        "metadata": {
+            "id": "call_WjXSaEHRYZJRX6vXGVTnw6Af",
+            "function": {
+                "arguments": "{\"component_id\":\"Hero1733739532\",\"change_description\":\"change the background color to blue\",\"acknowledgement_message\":\"Okay, I'm changing the background color to blue...\"}",
+                "name": "EditFrontendComponent"
+            },
+            "type": "function"
+        }
     }
 ]
