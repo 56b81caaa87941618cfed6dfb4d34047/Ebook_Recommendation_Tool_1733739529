@@ -300,5 +300,23 @@
         "source": "base_assistant",
         "content": "The background color of the header area is already red. Would you like to make any other changes?",
         "metadata": {}
+    },
+    {
+        "id": "5d527a54-17cc-4f08-a469-037b9cf3a1c9",
+        "timestamp": "2024-12-09T14:53:23.391892Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the text color to yellow\"",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
+    },
+    {
+        "id": "16ab1a4d-04fd-44cc-a25b-b9054d5f32ee",
+        "timestamp": "2024-12-09T14:53:25.045352Z",
+        "role": "assistant",
+        "source": "base_assistant",
+        "content": "The text color of the header is already yellow. Would you like to make any other adjustments?",
+        "metadata": {}
     }
 ]
