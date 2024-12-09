@@ -1536,5 +1536,15 @@
         "source": "base_assistant",
         "content": "The background color of the Hero component has been changed to blue. What's next?",
         "metadata": {}
+    },
+    {
+        "id": "55ec0ca9-2f4b-4ef9-aba5-b59dd949f5cf",
+        "timestamp": "2024-12-09T14:10:49.625329Z",
+        "role": "user",
+        "source": "user",
+        "content": "Change the background color to red",
+        "metadata": {
+            "component_id": "Header1733739532"
+        }
     }
 ]
